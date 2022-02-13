@@ -3,29 +3,17 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
-#title {
-  background: #ff4c68;
-  color: whitesmoke;
-  text-shadow: 3px 3px rgb(182, 180, 180);
-  padding-bottom: 10%;
+h1, h2, h3, h4, h5, h6 {
+  
 }
 
-/* Title Image */
 
-.title-image {
-  height: 70%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 30%;
-}
+/* Headings */
 
-.container-fluid {
-  padding: 0% 15%;
-}
-
-h1 {
+.big-heading {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   size: 3.5rem;
@@ -33,15 +21,16 @@ h1 {
   line-height: 1.5;
 }
 
-h2 {
+.section-heading {
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 700;
 }
 
-h3 {
-  font-weight: 900;
-  font-size: 1.5rem;
+/* Containers */
+
+.container-fluid {
+  padding: 0% 15%;
 }
 
 /* Navigation Bar */
@@ -74,16 +63,37 @@ h3 {
   margin: 5% 3% 5% 0;
 }
 
+/* Title*/
+
+#title {
+  background: #ff4c68;
+  color: whitesmoke;
+  text-shadow: 3px 3px rgb(182, 180, 180);
+  padding-bottom: 10%;
+  text-align: left;
+}
+
+.title-image {
+  height: 70%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
 /* Features Section*/
 
 .features {
-  text-align: center;
   padding: 10%;
   margin: 0rem 0rem 0rem 0rem;
   margin: 0;
   position: relative;
   background: white;
   z-index: 1;
+}
+
+.features-title {
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 
 .features-text {
@@ -102,7 +112,6 @@ h3 {
 /* Testimonial Section */
 
 #testimonials {
-  text-align: center;
   background: #ff4c68;
   color: whitesmoke;
 }
@@ -117,6 +126,7 @@ h3 {
   font-size: 3rem;
   line-height: 1.5;
   text-shadow: 3px 3px black;
+  font-weight: 700;
 }
 
 .carousel-item {
@@ -127,7 +137,6 @@ h3 {
 
 #press {
   background: #ff4c68;
-  text-align: center;
   padding-bottom: 2rem;
 }
 
@@ -140,7 +149,12 @@ h3 {
 
 #pricing {
     padding: 100px;
-    text-align: center;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
 }
 
 .pricing-column {
@@ -151,8 +165,6 @@ h3 {
 
 #cta {
   background: #ff4c68;
-  text-align: center;
-  
 }
 
 .call-to-action {
@@ -165,12 +177,10 @@ h3 {
 }
 
 #footer {
-  text-align: center;
   padding: 5% 15%;
 }
 
 .copyright {
-  text-align: center;
   padding: 3%;
   }
 
@@ -199,13 +209,14 @@ h3 {
     font-size: 2rem;
     line-height: 1;
     text-shadow: 3px 3px black;
+    font-weight: 400;
   }
 
-  h2 {
+  .price-text {
     font-size: 2rem;
     line-height: 1.5;
     font-weight: 700;
-}
+  }
 
 .call-to-action {
   color: whitesmoke;
