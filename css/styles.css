@@ -6,11 +6,6 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  
-}
-
-
 /* Headings */
 
 .big-heading {
@@ -154,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Pricing Styling */
 
 #pricing {
-    padding: 100px;
+  padding: 100px;
 }
 
 .price-text {
@@ -164,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pricing-column {
-    padding: 3% 2%;
+  padding: 3% 2%;
 }
 
 /* Call To Action Styling */
@@ -183,26 +178,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .copyright {
   padding: 3%;
-  }
+}
 
 .contact-logo {
   color: #ff4c68;
   padding: 2%;
-  }
-
+}
 
 /* Media Queries */
 
 @media (max-width: 1028px) {
-  
   #title {
     text-align: center;
     padding-bottom: 0;
   }
-  
+
   .title-image {
     position: static;
-    transform:rotate(0);
+    transform: rotate(0);
     height: 50%;
   }
 
@@ -219,13 +212,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
   }
 
-.call-to-action {
-  color: whitesmoke;
-  text-shadow: 3px 3px rgb(182, 180, 180);
-  padding: 5%;
-  font-weight: 700;
-  font-size: 2rem;
-  line-height: 1;
-}
-
+  .call-to-action {
+    color: whitesmoke;
+    text-shadow: 3px 3px rgb(182, 180, 180);
+    padding: 5%;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1;
+  }
 }
