@@ -11,7 +11,7 @@ body {
 .big-heading {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  size: 3.5rem;
+  font-size: 3.5rem;
   font-style: bold;
   line-height: 1.5;
 }
@@ -220,4 +220,31 @@ body {
     font-size: 2rem;
     line-height: 1;
   }
+}
+
+@media (max-width: 360px) { 
+  
+  .big-heading {
+
+    font-size: 4.5rem;
+
+  }
+
+  .features-title {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  .features-text {
+    font-size: 1.5rem;
+  }
+
+  .call-to-action {
+    text-shadow: 4px 4px rgb(182, 180, 180);
+    padding: 5%;
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 1.5;
+  }
+
 }
